@@ -1,0 +1,52 @@
+.pokemonsContainer {
+    display: flex;
+    height: 450px;
+    flex-direction: row wrap;
+    align-items: center margin-left: 2px
+}
+
+ul {
+    padding: 0
+}
+
+li {
+    list-style: none;
+    box-shadow: 3px 3px 2px rgba(5, 178, 235, 0.438);
+}
+
+.pokemonsContainer li {
+    flex-direction: row wrap;
+    padding: 10px;
+}
+
+.pokemonsContainer li div {
+    flex-direction: row wrap;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(9, 91, 94);
+}
+
+button {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    background-color: azure;
+    color: rgb(9, 91, 94);
+    border: 1px solid rgb(9, 91, 94);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(206, 212, 212);
+}
+
+.ButtonsContainer {
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(9, 91, 94);
+}
